@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Justin's Personal Student Webpage</title>
+    <!-- 
+        Justin Serafin
+        Personal Student Webpage with Style
+        3/20/2023
+     -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto"
+        rel="stylesheet">
+    <style>
+        body{
+            background-color: blanchedalmond;
+            font-family: 'Roboto';
+            text-align: center;
+        }
+
+        ul{
+            list-style-type: square;
+            display: inline-block;
+            text-align: left;
+        }
+
+        ol{
+            display: inline-block;
+            text-align: left;
+        }
+
+        .embed{
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: gray;
+        }
+
+        a:hover, a:focus, a:active {
+            color: #e03a3e;
+        }
+
+        #banner{
+            background-image: url("pexels-steve-johnson-1269968.jpg");
+            padding: 60px;
+        }
+        
+        .margins{
+            max-width: 75%;
+            margin: auto;
+        }
+
+        #mypicture{
+            width:200px; 
+            height:200px; 
+            border-radius:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="banner">Justin Serafin</h1>
+    
+    <img id="mypicture" src="./lab4/mypicture.jpg" alt="Picture of Me">
+    
+    <section class="margins">
+        <h2>Hi there. I'm Justin. I love video games and PC tech.</h2>
+        <a href="#Courses">Current Courses</a><br>
+        <a href="#Youtube">Favorite Youtube Channels</a><br>
+        <a href="#Websites">Favorite Websites</a>
+    </section>
+
+    <section id="Courses" class="margins">
+        <h2>Current Courses</h2>
+        <p>Here are some courses I am taking this semester.</p>
+        <ul>
+            <li>CISW 17 - HTML, CSS, and JavaScript</li>
+            <li>CISN 81 - Work Experience in Computer Networking </li>
+        </ul>
+        <p><strong>
+            Spring 2023 is my first semester seeking a certificate 
+            in web programming!
+        </strong></p>
+    </section>
+
+    <section id="Youtube" class="margins">
+        <h2>Favorite Youtube Channels</h2>
+        <p>I love watching videos on Youtube. These are my top 5 favorite channels:</p>
+        <ol>
+            <li class="embed">Linus Tech Tips</li>
+            <!--embedded video-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eQ_8F4nzyiw" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+
+            <li class="embed">Defunctland</li>
+            <!--embedded video-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b_rjBWmc1iQ" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+
+            <li class="embed">Mentour Pilot</li>
+            <!--embedded video-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e5AGHEUxLME" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+
+            <li class="embed">The Slo Mo Guys</li>
+            <!--embedded video-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3BJU2drrtCM" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+
+            <li class="embed">Veritasium</li>
+            <!--embedded video-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TRL7o2kPqw0" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+        </ol>
+    </section>
+
+    <section id="Websites" class="margins">
+        <h2>Favorite Websites</h2>
+        <p style="padding-bottom: 12px;">Besides Youtube, I also like visiting these other websites:</p>
+        <span style="background-color: burlywood; padding-top:100px; padding-bottom: 10px;">
+            <a style="padding: 12px;" href="https://www.reddit.com/"><img src="ws2kAA0.png" width="100px" height="100px" 
+                alt="Reddit Logo"></a>
+            <a style="padding: 12px;" href="https://pcpartpicker.com/" target="_blank"><img src="pcpartpicker-logo-dark-1652345457.png" 
+                width="100px" height="100px" alt="PCPartPicker Logo"></a>
+            <a style="padding: 12px;" href="https://www.twitch.tv/" target="_blank"><img src="twitch-purple-logo-png-transparent-1767217650.png" 
+                width="100px" height="100px" alt="Twitch Logo"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="580b57fcd9996e24bc43c53e-4182838593.png" 
+                width="100px" height="100px" alt="Twitter Logo"></a>
+            <a href="https://www.crunchyroll.com/" target="_blank"><img src="61362667f5966900044cbf72-3142024888.png" 
+                width="100px" height="100px" alt="Cruncyroll Logo"></a>
+        </span>
+    </section>
+</body>
+</html>
+
+<!-- Changes to My Webpage
+    1) Set body css rule
+    2) Insert image
+    3) Boldface on the Spring 2023 text
+    4) Background color change on the bottom section
+    5) Modifying list style
+    6) Embedded videos
+    7) Internal links
+    8) External links with logos
+    9) Modify Hyperlink Appearance
+    10) Banner
+-->
+

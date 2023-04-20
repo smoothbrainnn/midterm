@@ -1,0 +1,180 @@
+<!--
+Create an HTML file named lesson4-notes.html.
+
+Change the title to "Lesson 4 Notes".
+
+Ensure that your comment block is updated with your student information in 
+the head.
+
+   Your Name
+   Assignment Name
+   Date you complete the assignment
+
+Create a Heading 1 entitled "Lesson 4 Notes".
+
+Create a Heading 2 for each lesson.
+
+	Lesson 6: Working with Fonts, Text Blocks, Lists, and Tables
+	Lesson 7: Using External and Internal Links
+	Lesson 8: Working Colors, <li>s, and Multimedia
+
+Create a two paragraph summary for each lesson.
+
+List the "What You'll Learn in This Lesson" items as an unordered list for 
+each lesson. 
+
+Remove any non-html characters.
+
+CSS
+Ensure that your website is centered in the browser.
+-->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Lesson 4 Notes</title>
+   <!--
+   Justin Serafin
+   Module 4 Lesson Notes
+   3/18/2023
+   -->
+   <style>
+      body {
+        max-width: 960px;
+        margin: auto;
+      }
+   </style>
+</head>
+<body>
+   <header>
+   <h1>Lesson 4 Notes</h1>
+   </header>
+
+   <h2>Lesson 6</h2>
+   <p >What You’ll Learn in This Lesson</p>
+   <ul>
+      <li> How to use boldface, italic, and special text formatting</li>
+      <li> How to tweak the font</li>
+      <li> How to use special characters</li>
+      <li> How to align text on a page</li>
+      <li> How to use the three types of HTML lists</li>
+      <li> How to nest lists within lists</li>
+      <li> How to create simple tables</li>
+      <li> How to control the size of tables</li>
+      <li> How to align content and span rows and columns within tables</li>
+      <li> How to use CSS columns</li>
+   </ul>
+   <!--Summary-->
+   <p>
+      In the modern web, there are many ways to format and structure text on
+      the page, including changing the typeface and size, putting it in a HTML
+      table, and using CSS columns to modernize text placement on the page.
+      Some text consists of special characters that require a certain encoding
+      scheme or a specific sequence of characters to represent it in text. The 
+      bold (&ltb&gt) and the italics (&lti&gt) tags are used to add emphasis 
+      to certain text, although it's been replaced with the &ltem&gt and the 
+      &ltstrong&gt tags respectively in HTML5. Other HTML tags used to change 
+      the appearance of text include the superscript (&ltsup&gt) tag, the 
+      subscript (&ltsub&gt) tag, and the monospaced text (&ltpre&gt) tag. 
+   </p>
+   <p>
+      Before CSS, the &ltfont&gt tag was used to change the appearance of a 
+      whole section of text. In CSS3, a "@font-face" rule allowed you to
+      define a font that would load into the browser from a local server or 
+      other remote server, regardless of whether a user had that font on their
+      computer or not. In ibe way to organize text, the list, the three basic 
+      lists you can use is the ordered list, the unordered list, and the 
+      definition list. To display tabular data, there are the &lttable&gt tags
+      to format and structure data in a table. Finally, you can specify column
+      number and column gap size in CSS style rules to display text like you'd 
+      see in a newspaper.
+    
+   </p>
+
+   <h2>Lesson 7</h2>
+   <p>What You’ll Learn in This Lesson</p>
+   <ul>
+      <li> How to use anchor links</li>
+      <li> How to link between pages on your own site</li>
+      <li> How to link to external content</li>
+      <li> How to link to non-Web documents such as PDF and Word documents</li>
+      <li> How to link to an email address</li>
+      <li> How to use window targeting with your links</li>
+      <li> How to style your links with CSS</li>
+      <li> How to add descriptions to links</li>
+      <li> Best practices for web page links</li>
+   </ul>
+   <!--Summary-->
+   <p>
+      Using the "href" attribute in the anchor tag (&lta&gt), you can insert 
+      linksto other pages on your website or to external web pages. When you 
+      insert links to other pages on your website, they can be linked with 
+      absolute addresses or relative addresses. Relative addresses are 
+      preferred because directories can be moved around without needing to 
+      changing the links. If two files are in the same folder, then only the 
+      name of file of the html is necessary when linking to it. The anchor 
+      tag can also be used to navigate to other locations on the same page.
+   </p>
+   <p>
+      When you link to external web content, you must use its fully qualified 
+      domain name to link to it. You can use "mailto:" in href to link email 
+      addresses, and both "?" and the "&" characters to pre-fill parts of the 
+      email, such as the body, the subject line, and the CC. The "target" 
+      attribute can be used to open a new window when a user clicks on a link,
+      rather than navigating to the link on the same browser window. The 
+      "title" attribute can be used to display a message when a user hovers 
+      over a link. Hyperlinks can be styled with CSS, and its appearance 
+      modified based on how the user interacts with it.
+   </p>
+
+   <h2>Lesson 8</h2>
+   <p>What You’ll Learn in This Lesson</p>
+   <ul>
+      <li> How to choose colors for your website that work on the web</li>
+      <li> How to use CSS to set background, text, and border colors</li>
+      <li> How to select a graphics software package to use</li>
+      <li> How to prepare photographs for use online</li>
+      <li> How to create banners and buttons</li>
+      <li> How to reduce the number of colors in an image</li>
+      <li> How to create transparent images</li>
+      <li> How to prepare an image for a tiled background</li>
+      <li> How to create animated web graphics</li>
+      <li> How to place an image on a web page</li>
+      <li> How to describe images with text</li>
+      <li> How to specify image height and width</li>
+      <li> How to align images</li>
+      <li> How to use background images</li>
+      <li> How to use image maps</li>
+      <li> How to link to or embed multimedia files</li>
+      <li> How to use HTML5 audio and video elements</li>
+   </ul>
+   <!--Summary-->
+   <p>
+      By adding images, multimedia and colors to your webpage, you can create 
+      a modern, visually appealing website. When it comes to background and 
+      font color, there are several factors to consider, but the most 
+      important is to provide a good contrast between background and text. 
+      While there are several options for colors that are simply named, you 
+      can customize your color to a high precision with hexadecimal values. 
+      Another precise way to customize color,is using rgb values, although 
+      the better alternative is rgba, which allows for rgb customization, 
+      as well as transparency.
+   </p>
+   <p>
+      The three most common values to define for a CSS style are 
+      background color, text color, although there are many more you can 
+      define. Adding images fromexternal sources or created by a graphics 
+      program can help enhance the visuals of your website. You can use the 
+      &ltimg&gt tag to insert images by specifying the src attribute, describe 
+      the image with the alt attribute, and specify CSS style rules with the 
+      style attribute. You can divide up an image into region with image maps,
+      so a user can click on certain part of an image. Like with local pages 
+      and external web pages, you can use the anchor tag to link multimedia 
+      files. With the &ltvideo&gt tag, you can embed video and audio and 
+      specify fallback text in case the browser fails to load the media.
+   </p>
+
+</body>
+</html>
